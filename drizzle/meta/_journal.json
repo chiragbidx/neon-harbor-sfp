@@ -1,6 +1,8 @@
-[
-  "0000_minor_crusher_hogan.sql",
-  "0001_chubby_ser_duncan.sql",
-  "0002_tense_sabretooth.sql",
-  "0003_add_messages_table.sql"
-]
+{
+  "entries": [
+    "0000_minor_crusher_hogan.sql",
+    "0001_chubby_ser_duncan.sql",
+    "0002_tense_sabretooth.sql",
+    "0003_add_messages_table.sql"
+  ]
+}
