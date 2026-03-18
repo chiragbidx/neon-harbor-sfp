@@ -38,7 +38,8 @@ export const Navbar = ({ isLoggedIn = false }: NavbarProps) => {
         <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
         {navbar.brandName}
       </Link>
-      {/* <!-- Mobile --> */}
+
+      {/* Mobile */}
       <div className="flex items-center lg:hidden">
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
@@ -106,14 +107,13 @@ export const Navbar = ({ isLoggedIn = false }: NavbarProps) => {
 
             <SheetFooter className="flex-col sm:flex-col justify-start items-start">
               <Separator className="mb-2" />
-
               <ThemeToggle mode="inline" />
             </SheetFooter>
           </SheetContent>
         </Sheet>
       </div>
 
-      {/* <!-- Desktop --> */}
+      {/* Desktop */}
       <NavigationMenu className="hidden lg:block mx-auto">
         <NavigationMenuList>
           <NavigationMenuItem>
