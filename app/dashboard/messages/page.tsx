@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { getAuthSession } from "@/lib/auth/session";
 import { db } from "@/lib/db/client";
 import { teams, teamMembers } from "@/lib/db/schema";
+import { eq } from "drizzle-orm";
 import MessagesClient from "./client";
 
 export default async function MessagesPage() {
@@ -12,7 +13,7 @@ export default async function MessagesPage() {
   const teamsJoined = await db
     .select({ id: teamMembers.teamId })
     .from(teamMembers)
-    .where(teamMembers.userId.eq(session.userId));
+    .where(eq(teamMembers.userId, session.userId));
 
   if (!teamsJoined.length) {
     return (
