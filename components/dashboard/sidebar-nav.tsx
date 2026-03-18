@@ -30,7 +30,7 @@ const sections: { title: string; items: NavItem[] }[] = [
     items: [
       { label: "Overview", href: "/dashboard/overview", icon: Home },
       { label: "Messages", href: "/dashboard/messages", icon: MessageCircle },
-      { label: "Channels", href: "/dashboard/channels", icon: Hash },
+      { label: "Channels", href: "/dashboard/channels", icon: Hash, disabled: true },
       { label: "Teams", href: "/dashboard/team", icon: Users },
       { label: "Settings", href: "/dashboard/settings", icon: Settings },
     ],
