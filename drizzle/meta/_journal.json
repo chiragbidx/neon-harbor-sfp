@@ -1,8 +1,24 @@
 {
   "entries": [
-    "0000_minor_crusher_hogan.sql",
-    "0001_chubby_ser_duncan.sql",
-    "0002_tense_sabretooth.sql",
-    "0003_add_messages_table.sql"
+    {
+      "id": "0000_minor_crusher_hogan",
+      "filename": "0000_minor_crusher_hogan.sql",
+      "hash": "placeholder_hash_0000"
+    },
+    {
+      "id": "0001_chubby_ser_duncan",
+      "filename": "0001_chubby_ser_duncan.sql",
+      "hash": "placeholder_hash_0001"
+    },
+    {
+      "id": "0002_tense_sabretooth",
+      "filename": "0002_tense_sabretooth.sql",
+      "hash": "placeholder_hash_0002"
+    },
+    {
+      "id": "0003_add_messages_table",
+      "filename": "0003_add_messages_table.sql",
+      "hash": "placeholder_hash_0003"
+    }
   ]
 }
