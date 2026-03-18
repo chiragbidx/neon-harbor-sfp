@@ -1,5 +1,3 @@
-import "server-only";
-
 import { pgTable, text, timestamp, uniqueIndex } from "drizzle-orm/pg-core";
 import { sql } from "drizzle-orm";
 
